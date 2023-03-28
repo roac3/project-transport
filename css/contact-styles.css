@@ -1,0 +1,74 @@
+.contact{
+    background-color: var(--secondary-red-color);
+    min-height: 50vh;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact h1{
+    font-size: 90px;
+    font-style: italic;
+    font-family: 'Oswald', sans-serif;
+    text-shadow: 0em 0em 0.4em rgba(255,255,255,0.6);
+    margin-bottom: 10px;
+}
+
+.contact form{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 60px;
+    margin-top: 80px;
+}
+
+.contact form input[type="text"]{
+    font-family: 'Source Sans Pro', sans-serif;
+    width: 48%;
+    padding: 20px;
+    font-size: 20px;
+    border: 1px solid rgb(0, 0, 0);
+    outline: none;
+    margin-bottom: 20px;
+}
+
+.contact form textarea{
+    font-family: 'Source Sans Pro', sans-serif;
+    width: 100%;
+    height: 150px;
+    padding: 20px;
+    font-size: 20px;
+    border: 1px solid rgb(0, 0, 0);
+    outline: none;
+    margin-bottom: 20px;
+}
+
+.contact form div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.contact form input[type="submit"]{
+    font-family: 'Source Sans Pro', sans-serif;
+    border-radius: 10px;
+    padding: 15px 40px;
+    font-size: 25px;
+    background: black;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-style: italic;
+    cursor: pointer;
+    transition: all 300ms;
+}
+
+.contact form input[type="submit"]:hover{
+    background: white;
+    color: black;
+}

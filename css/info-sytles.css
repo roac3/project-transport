@@ -1,0 +1,114 @@
+.info{
+    width: 100%;
+    min-height: 50vh;
+    background: #24293B;
+    border-radius: 0 100% 0 0;
+    transition: all 300ms;
+    padding: 80px 0;
+    position: relative;
+    color: white;
+    margin: auto;
+}
+
+.info:hover{
+    border-radius: 0 90% 0 0;
+}
+
+.info .margin-cnt{
+    width: 80%;
+    height: fit-content;
+}
+
+
+.info .text,
+.info .img{
+    width: 50%;
+}
+
+.info .img .img-mask{
+    width: 100%;
+    border-radius: 90% 0 0 0;
+    
+}
+
+.info .img img{
+    position: absolute;
+    border-radius: 100% 0 0 0;
+    max-height: 650px;
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top center;
+    right: 0;
+    bottom: 60px;
+}
+
+.info .margin-cnt .text span{
+    font-size: 16px;
+    font-family: 'Oswald', sans-serif;
+    font-style: italic;
+    letter-spacing: 5px;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.info .margin-cnt .text span::before{
+    content: '';
+    width: 75%;
+    height: 2px;
+    background: white;
+    position: absolute;
+    bottom: 0;
+    left: -20px;
+}
+
+.info .margin-cnt .text h4{
+    margin: 20px 0;
+    font-size: 50px;
+    font-family: 'Oswald', sans-serif;
+    font-style: italic;
+    letter-spacing: 5px;
+    text-shadow: 0em 0em 0.4em rgba(255,255,255,0.6);
+}
+
+.info .margin-cnt .text ul{
+    margin-top: 40px;
+    list-style: none;
+}
+
+.info .margin-cnt .text ul li{
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.info .margin-cnt .text ul li i{
+    margin-right: 10px;
+    font-size: 30px;
+}
+
+.cnt-btn{
+    margin: 20px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.btn-contact{
+    padding: 20px 40px;
+    background: linear-gradient(to bottom, var(--red-color) 50%, var(--secondary-red-color) 50%);
+    color: white;
+    font-weight: bold;
+    letter-spacing: 2px;
+    border-radius: 60px;
+    margin-top: 40px;
+    font-size: 23px;
+    font-family: 'Oswald', sans-serif;
+    transition: all 300ms;
+    cursor: pointer;
+}
+
+.btn-contact:hover{
+    background: black;
+    color: white;
+}

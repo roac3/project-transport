@@ -1,0 +1,111 @@
+.plans{
+    padding: 100px 0;
+}
+
+.plans .plans-cnt{
+    width: 50%;
+}
+
+.plans .margin-cnt{
+    display: flex;
+    width: 70%;
+}
+
+.plans .text-2 .item{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.plans .text-2 .item .img-mask,
+.plans .text-2 .item .text-item{
+    width: 40%;
+}
+
+.plans img{
+    width: 100%;
+    object-fit: cover;
+   
+}
+
+.plans .mask1 img{
+    border-radius: 80px 0 0 0;
+}
+
+.plans .mask2 img{
+    border-radius: 0 0 0 0;
+}
+
+.plans .mask3 img{
+    border-radius: 0 0 80px 0;
+}
+
+.plans h1,
+.plans h4{
+    font-style: italic;
+    color: #333333;
+    font-family: 'Oswald', sans-serif;
+}
+
+.plans .text-1 {
+    padding-right: 100px;
+}
+
+.plans .text-1 span{
+    font-style: italic;
+    font-weight: bold;
+    letter-spacing: 3px;
+    padding-bottom: 10px;
+    position: relative;
+}
+
+.plans .text-1 span::before{
+    content: '';
+    width: 60%;
+    height: 3px;
+    background-color: #681216;
+    position: absolute;
+    bottom: 0;
+    left: -20px;
+}
+
+.plans .text-1 h1{
+    margin: 20px 0;
+    font-size: 80px;
+    letter-spacing: 3px;
+}
+
+.plans .text-1 .btn-cnt{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.plans .text-1 .btn-contact{
+    background: linear-gradient(to bottom, var(--red-color) 50%, var(--secondary-red-color) 50%);
+    color: white;
+    transition: all 300ms;
+}
+
+.plans .text-1 .btn-contact:hover{
+    background: black;
+}
+
+.plans p{
+    color: #666666;
+    font-size: 18px;
+}
+
+.plans .text-2{
+    margin-top: 80px;
+}
+
+.plans .item .text-item{
+    padding: 10px 0;
+}
+
+.plans .item p{
+    margin-top: 10px;
+}
